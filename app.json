@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Hanzo Chat",
+    "slug": "expo-chat",
+    "version": "1.0.0",
+    "scheme": "expo-chat",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "ai.hanzo.chat" },
+    "android": { "package": "ai.hanzo.chat", "edgeToEdgeEnabled": true },
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": ["expo-router"]
+  }
+}

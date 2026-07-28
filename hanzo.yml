@@ -1,0 +1,5 @@
+# What CI runs. Only steps a Linux arc runner can genuinely execute —
+# the macOS archive lives in .github/workflows/ios.yml. See README.
+test:
+  - { name: typecheck, run: "npm ci && npx tsc --noEmit" }
+  - { name: web-bundle, run: "npx expo export -p web" }
